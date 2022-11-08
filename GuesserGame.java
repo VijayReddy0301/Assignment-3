@@ -17,7 +17,7 @@ class Guesser{
 
 		System.out.println();
 
-		System.out.println("Kindly Guess The Secret Number Pls ");
+		System.out.println("Kindly Guess The Secret Number Pls Range 1 to 100 ");
 		
 		System.out.println("-------------------------------------------");
 		
