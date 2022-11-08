@@ -17,7 +17,7 @@ class Guesser{
 
 		System.out.println();
 
-		System.out.println("Kindly Guess The Secret Number Pls Range 1 to 100 ");
+		System.out.println("Kindly Guess The Secret Number Pls Range 1 to 10 ");
 		
 		System.out.println("-------------------------------------------");
 		
@@ -79,14 +79,14 @@ class Player{
 
 		int guessNum;
 
-		System.out.println("Guess The Number Pls Range From 1 to 100 ");
+		System.out.println("Guess The Number Pls Range From 1 to 10 ");
 		
 		System.out.println("-------------------------------------------");
 
 		guessNum =sc.nextInt();
 
 
-		if(guessNum >0  && guessNum<=100) {
+		if(guessNum >0  && guessNum<=10) {
 
 			return guessNum;
 		}else {
@@ -95,7 +95,7 @@ class Player{
 
 			guessNum =sc.nextInt();
 
-			if(guessNum >0  && guessNum<=100) {
+			if(guessNum >0  && guessNum<=10) {
 
 				return guessNum;
 
